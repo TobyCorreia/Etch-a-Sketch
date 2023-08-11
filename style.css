@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    border-radius: 25px;
+    padding: 50px;
+}
+
+.text {
+    color: yellow;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 36px;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns: repeat(16, calc(100% / 16)); */
+    /* grid-template-rows: repeat(16, calc(100% / 16)); */
+    height: 600px;
+    width: 600px;
+    
+}
+
+.grid-item {
+    background-color: white;
+}
+
+#erase {
+    margin-top: 20px;
+    width: 50px;
+}
+
+
+
